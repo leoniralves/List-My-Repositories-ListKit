@@ -1,7 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '12.1'
 use_frameworks!
 
 target 'ListKit_Example' do
   pod 'ListKit', :path => '../'
+  pod 'NetworkKit', :path => '../../NetworkKit'
 
   target 'ListKit_Tests' do
     inherit! :search_paths
