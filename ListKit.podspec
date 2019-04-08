@@ -41,4 +41,5 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   
   s.dependency 'NetworkKit', '~> 0.1'
+  s.dependency 'CoreKit', '~> 0.1'
 end
